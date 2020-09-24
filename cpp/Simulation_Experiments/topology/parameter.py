@@ -1,0 +1,5 @@
+para_program = 'p4src/ecmp.p4'
+para_switch = 'simple_switch'
+para_compiler = 'p4c'
+para_options = '--target bmv2 --arch v1model --std p4-16'
+para_switch_cli = 'simple_switch_CLI'

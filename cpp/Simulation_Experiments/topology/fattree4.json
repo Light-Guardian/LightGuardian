@@ -1,0 +1,447 @@
+{
+    "topo_module": {
+        "module_name": "p4utils.mininetlib.apptopo",
+        "object_name": "AppTopoStrategies",
+        "file_path": ""
+    },
+    "cli": true,
+    "topology": {
+        "switches": {
+            "s16": {
+                "cpu_port": true
+            },
+            "s9": {
+                "cpu_port": true
+            },
+            "s8": {
+                "cpu_port": true
+            },
+            "s17": {
+                "cpu_port": true
+            },
+            "s3": {
+                "cpu_port": true
+            },
+            "s2": {
+                "cpu_port": true
+            },
+            "s1": {
+                "cpu_port": true
+            },
+            "s10": {
+                "cpu_port": true
+            },
+            "s7": {
+                "cpu_port": true
+            },
+            "s6": {
+                "cpu_port": true
+            },
+            "s5": {
+                "cpu_port": true
+            },
+            "s4": {
+                "cpu_port": true
+            },
+            "s13": {
+                "cpu_port": true
+            },
+            "s20": {
+                "cpu_port": true
+            },
+            "s18": {
+                "cpu_port": true
+            },
+            "s15": {
+                "cpu_port": true
+            },
+            "s12": {
+                "cpu_port": true
+            },
+            "s19": {
+                "cpu_port": true
+            },
+            "s14": {
+                "cpu_port": true
+            },
+            "s11": {
+                "cpu_port": true
+            }
+        },
+        "assignment_strategy": "l3",
+        "hosts": {
+            "h8": {},
+            "h9": {},
+            "h15": {},
+            "h2": {},
+            "h3": {},
+            "h12": {},
+            "h1": {},
+            "h6": {},
+            "h7": {},
+            "h4": {},
+            "h5": {},
+            "h10": {},
+            "h16": {},
+            "h11": {},
+            "h14": {},
+            "h13": {}
+        },
+        "links": [
+            [
+                "s1",
+                "s5",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s1",
+                "s7",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s1",
+                "s9",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s1",
+                "s11",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s2",
+                "s5",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s2",
+                "s7",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s2",
+                "s9",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s2",
+                "s11",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s3",
+                "s6",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s3",
+                "s8",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s3",
+                "s10",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s3",
+                "s12",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s4",
+                "s6",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s4",
+                "s8",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s4",
+                "s10",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s4",
+                "s12",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s5",
+                "s13",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s5",
+                "s14",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s6",
+                "s13",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s6",
+                "s14",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s7",
+                "s15",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s7",
+                "s16",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s8",
+                "s15",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s8",
+                "s16",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s9",
+                "s17",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s9",
+                "s18",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s10",
+                "s17",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s10",
+                "s18",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s11",
+                "s19",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s11",
+                "s20",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s12",
+                "s19",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s12",
+                "s20",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s13",
+                "h1",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s13",
+                "h2",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s14",
+                "h3",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s14",
+                "h4",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s15",
+                "h5",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s15",
+                "h6",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s16",
+                "h7",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s16",
+                "h8",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s17",
+                "h9",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s17",
+                "h10",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s18",
+                "h11",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s18",
+                "h12",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s19",
+                "h13",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s19",
+                "h14",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s20",
+                "h15",
+                {
+                    "bw": 2
+                }
+            ],
+            [
+                "s20",
+                "h16",
+                {
+                    "bw": 2
+                }
+            ]
+        ]
+    },
+    "switch": "simple_switch",
+    "program": "p4src/ecmp.p4",
+    "pcap_dump": false,
+    "switch_cli": "simple_switch_CLI",
+    "topodb_module": {
+        "module_name": "p4utils.utils.topology",
+        "object_name": "Topology",
+        "file_path": ""
+    },
+    "mininet_module": {
+        "module_name": "p4utils.mininetlib.p4net",
+        "object_name": "P4Mininet",
+        "file_path": ""
+    },
+    "enable_log": false,
+    "options": "--target bmv2 --arch v1model --std p4-16",
+    "controller_module": null,
+    "compiler": "p4c"
+}
